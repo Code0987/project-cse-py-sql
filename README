@@ -1,0 +1,34 @@
+Project (project-cse-py-sql)
+-------
+
+Install / Setup / Run
+---------------------
+
+```shell
+
+Download https://www.postgresql.org/download/
+Install and configure
+
+CREATE DATABASE project;
+CREATE USER project WITH PASSWORD 'project';
+GRANT ALL PRIVILEGES ON DATABASE "project" to project;
+
+```
+
+```shell
+
+git clone https://github.com/Code0987/project-cse-py-sql
+cd project-cse-py-sql
+
+pip install virtualenv -U
+virtualenv env
+
+env\Scripts\activate.bat
+
+pip install -r requirements.txt
+
+set FLASK_APP=bakery_ordering_system
+set FLASK_DEBUG=1
+python -m flask run
+
+```
