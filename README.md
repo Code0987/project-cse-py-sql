@@ -1,4 +1,4 @@
-roject (project-cse-py-sql)
+Project (project-cse-py-sql)
 -------
 
 Install / Setup / Run
